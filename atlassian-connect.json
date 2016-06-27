@@ -36,7 +36,7 @@
           "type": "page"
         },
         "tooltip": {
-          "value": "Install in Chrome"
+          "value": "Install in Google Chrome"
         },
         "icon": {
           "width": 16,
@@ -44,7 +44,7 @@
           "url": "/icon.png"
         },
         "name": {
-          "value": "Install in Chrome"
+          "value": "Install in Google Chrome"
         },
         "key": "install"
       }
