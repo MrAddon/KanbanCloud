@@ -41,10 +41,10 @@
         "icon": {
           "width": 16,
           "height": 16,
-          "url": "icon.png"
+          "url": "/icon.png"
         },
         "name": {
-          "value": "Install"
+          "value": "Install in Chrome"
         },
         "key": "install"
       }
