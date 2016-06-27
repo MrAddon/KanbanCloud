@@ -2,7 +2,7 @@
    "key": "com.rauliki.kanbanwip",
    "name": "JIRA Cloud Kanban Combined WIP",
    "version": "1.0",
-   "description": "JIRA Cloud Kanban Combined WIP",
+   "description": "Extension to colorize the cards and combine the WIP of the columns with that status names matches this format 'XXX::YYYY', 'XXX::ZZZ', etc. By Raul Pelaez Mendoza. Also added ZOOM buttons in SCRUM/Kanban board",
    "vendor": {
       "name": "Raul Pelaez",
       "url": "https://jirasupport.wordpress.com"
@@ -36,7 +36,7 @@
           "type": "page"
         },
         "tooltip": {
-          "value": "Install"
+          "value": "Install in Chrome"
         },
         "icon": {
           "width": 16,
