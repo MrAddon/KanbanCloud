@@ -1,0 +1,80 @@
+{
+   "key": "com.rauliki.kanbanwip",
+   "name": "JIRA Cloud Kanban Combined WIP",
+   "version": "3.1",
+   "description": "Extension to colorize the cards and combine the WIP of the columns with that status names matches this format 'XXX::YYYY', 'XXX::ZZZ', etc. By Raul Pelaez Mendoza. Also added ZOOM and horizontal SCROLL buttons in SCRUM/Kanban board",
+   "vendor": {
+      "name": "MrAddon raulpelaez@mraddon.com",
+      "url": "http://www.MrAddon.com"
+   },
+   "baseUrl": "https://raw.githubusercontent.com/rpelaez/KanbanCloud/master/",
+   "enableLicensing": true,
+   "authentication": {
+      "type": "none"
+   },
+   "modules": {
+      "webSections": [
+        {
+            "key": "board-links",
+            "location": "jira.agile.board.tools",
+			"weight": 10,
+            "name": {
+                "value": "Kanban Combined WIP PRO"
+            }
+        }
+    ],   
+    "webItems": [
+      {
+        "location": "board-links",
+        "weight": 200,
+        "styleClasses": [
+          "webitem",
+          "system-present-webitem"
+        ],
+        "url": "https://chrome.google.com/webstore/detail/jira-cloud-kanban-combine/hpmnhocaonfpflchaabcekbhbhijmchj?authuser=1",
+        "context": "product",
+        "target": {
+          "type": "page"
+        },
+        "tooltip": {
+          "value": "Install in Google Chrome"
+        },
+        "icon": {
+          "width": 16,
+          "height": 16,
+          "url": "/icon.png"
+        },
+        "name": {
+          "value": "Install in Google Chrome"
+        },
+        "key": "install"
+      }
+      ,
+       {
+        "location": "board-links",
+        "weight": 200,
+        "styleClasses": [
+          "webitem",
+          "system-present-webitem"
+        ],
+        "url": "https://chrome.google.com/webstore/detail/jira-cloud-kanban-combine/bakiifldhbnjekeplednmcbiepiflbhg?authuser=1",
+        "context": "product",
+        "target": {
+          "type": "page"
+        },
+        "tooltip": {
+          "value": "Install for domains *.jira.com"
+        },
+        "icon": {
+          "width": 16,
+          "height": 16,
+          "url": "/icon.png"
+        },
+        "name": {
+          "value": "Install for domains *.jira.com"
+        },
+        "key": "install2"
+      }
+      ]
+   }
+}
