@@ -1,7 +1,7 @@
 {
    "key": "com.rauliki.kanbanwip",
    "name": "JIRA Cloud Kanban Combined WIP",
-   "version": "2.1",
+   "version": "3.1",
    "description": "Extension to colorize the cards and combine the WIP of the columns with that status names matches this format 'XXX::YYYY', 'XXX::ZZZ', etc. By Raul Pelaez Mendoza. Also added ZOOM and horizontal SCROLL buttons in SCRUM/Kanban board",
    "vendor": {
       "name": "MrAddon raulpelaez@mraddon.com",
@@ -48,6 +48,32 @@
           "value": "Install in Google Chrome"
         },
         "key": "install"
+      }
+      ,
+       {
+        "location": "board-links",
+        "weight": 200,
+        "styleClasses": [
+          "webitem",
+          "system-present-webitem"
+        ],
+        "url": "https://chrome.google.com/webstore/detail/jira-cloud-kanban-combine/bakiifldhbnjekeplednmcbiepiflbhg?authuser=1",
+        "context": "product",
+        "target": {
+          "type": "page"
+        },
+        "tooltip": {
+          "value": "Install for domains *.jira.com"
+        },
+        "icon": {
+          "width": 16,
+          "height": 16,
+          "url": "/icon.png"
+        },
+        "name": {
+          "value": "Install for domains *.jira.com"
+        },
+        "key": "install2"
       }
       ]
    }
